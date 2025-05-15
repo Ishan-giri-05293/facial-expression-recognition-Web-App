@@ -43,7 +43,7 @@ facial-expression-recognition-Web-App/
 
 ```bash
 # 1. Clone the repository
-$ git clone https://github.com/your-username/facial-expression-recognition-Web-App.git
+$ git clone https://github.com/Ishan-giri-05293/facial-expression-recognition-Web-App
 $ cd facial-expression-recognition-Web-App
 
 # 2. Create a virtual environment (optional but recommended)

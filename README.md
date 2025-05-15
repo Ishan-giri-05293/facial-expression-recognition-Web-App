@@ -59,6 +59,10 @@ $ python app.py
 # 5. Visit in browser
 Open http://127.0.0.1:5000/
 ```
+📸 Demo Screenshot
+
+![Screenshot 2025-05-15 214651](https://github.com/user-attachments/assets/5f0eaa4a-1cea-4956-b230-43a8ca6bc918)
+
 
 ---
 

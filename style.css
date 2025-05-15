@@ -1,0 +1,51 @@
+
+/* static/style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.4s, color 0.4s;
+}
+
+h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card-body {
+    background: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+    font-size: 1.1rem;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Animated glowing border for dark mode */
+[data-bs-theme="dark"] .card {
+    border: 2px solid rgba(0, 123, 255, 0.25);
+    animation: glow 2s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0%   { box-shadow: 0 0 10px rgba(0,123,255,0.1); }
+    50%  { box-shadow: 0 0 20px rgba(0,123,255,0.4); }
+    100% { box-shadow: 0 0 10px rgba(0,123,255,0.1); }
+}
